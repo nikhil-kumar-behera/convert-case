@@ -1,5 +1,5 @@
 {
-  "name": "convert-case",
+  "name": "converting-case",
   "version": "0.0.1",
   "description": "This package is used to convert cases.",
   "main": "index.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhil-kumar-behera/convert-case"
+    "url": "https://github.com/nikhil-kumar-behera/converting-case"
   },
   "keywords": [
-    "convert-case",
+    "converting-case",
     "case",
     "case-conversion",
     "change-case",

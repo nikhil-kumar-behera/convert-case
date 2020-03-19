@@ -1,16 +1,16 @@
-# convert-case
+# converting-case
 
 This module is used to convert cases.
 
 # install
 
-`npm install convert-case`
+`npm install converting-case`
 
 # usage
 
 ```javascript
 //NodeJS
-const convert = require("convert-case");
+const convert = require("converting-case");
 
 console.log("camelCase", convert.camelCase("Test String Demo")); //camelCase testStringDemo
 console.log("constantCase", convert.constantCase("Test String Demo")); //constantCase TEST_STRING_DEMO
@@ -41,7 +41,7 @@ import {
   titleCase,
   upperCase,
   lowerCase
-} from "convert-case";
+} from "converting-case";
 
 console.log("camelCase", camelCase("Test String Demo")); //camelCase testStringDemo
 console.log("constantCase", constantCase("Test String Demo")); //constantCase TEST_STRING_DEMO
