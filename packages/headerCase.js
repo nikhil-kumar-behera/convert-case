@@ -1,8 +1,14 @@
+const constant = require("../constants/constant");
 /**
- * Convert string to uppercase.
- * @param {String} str 
+ * Convert string to headerCase.
+ * Transform into a dash separated string of capitalized words.
+ * @param {String} str
  */
-function upperCase(str) {
-  return str.toUpperCase();
+function headerCase(str) {
+  return str
+    .replace(constant.regex.camelCase, function(word, index) {
+      return word.toUpperCase();
+    })
+    .replace(constant.regex.spaceRegEx, constant.char.hyphen);
 }
-module.exports = upperCase;
+module.exports = headerCase;

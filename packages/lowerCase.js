@@ -1,6 +1,7 @@
 /**
  * Convert string to lowerCase.
- * @param {String} str 
+ * Transforms the string to lower case.
+ * @param {String} str
  */
 function lowerCase(str) {
   return str.toLowerCase();
