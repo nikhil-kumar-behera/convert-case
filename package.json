@@ -8,14 +8,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "test"
+    "url": "https://github.com/nikhil-kumar-behera/convert-case"
   },
   "keywords": [
     "convert-case",
     "case",
+    "case-conversion",
     "change-case",
     "pascal-case",
-    "camel-case"
+    "camel-case",
+    "string-conversion",
+    "conversion",
+    "sentenceCase",
+    "camelCase",
+    "constantCase",
+    "dotCase",
+    "headerCase",
+    "paramCase",
+    "pascalCase",
+    "pathCase",
+    "sentenceCase",
+    "snakeCase",
+    "swapCase",
+    "titleCase",
+    "upperCase",
+    "lowerCase"
   ],
   "author": "Nikhil Kumar Behera",
   "license": "ISC"
